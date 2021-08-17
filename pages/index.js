@@ -1,10 +1,11 @@
-import React from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import Box from '@material-ui/core/Box'
+import Container from '@material-ui/core/Container'
+import Typography from '@material-ui/core/Typography'
+import React from 'react'
+
+import Copyright from '../src/Copyright'
+import Link from '../src/Link'
+import ProTip from '../src/ProTip'
 
 export default function Index() {
   return (
@@ -20,5 +21,5 @@ export default function Index() {
         <Copyright />
       </Box>
     </Container>
-  );
+  )
 }

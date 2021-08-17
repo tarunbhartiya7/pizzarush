@@ -1,6 +1,6 @@
-import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import MuiLink from '@material-ui/core/Link';
+import MuiLink from '@material-ui/core/Link'
+import Typography from '@material-ui/core/Typography'
+import React from 'react'
 
 export default function Copyright() {
   return (
@@ -10,7 +10,6 @@ export default function Copyright() {
         Your Website
       </MuiLink>{' '}
       {new Date().getFullYear()}
-      {'.'}
     </Typography>
-  );
+  )
 }
